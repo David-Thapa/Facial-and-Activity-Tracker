@@ -121,6 +121,7 @@ celerybeat.pid
 
 # Environments
 .env
+django-server/venv
 .venv
 env/
 venv/
