@@ -1,0 +1,153 @@
+.avian-vision {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Inika;
+  background: conic-gradient(from 179deg at 50% 50%, #6FDA2F 0deg, #7CE83C 49.59153950214386deg, #A3FF6D 126.71135187149048deg, #77E536 219.6000051498413deg);;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.header {
+  padding: 1rem;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo-avian {
+  height: 70px;
+  width: 75px;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 3rem;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.last{
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.navigation a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust distance as needed */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px; /* Adjust underline thickness */
+  background-color:#000; /* Or your desired color */
+}
+
+.navigation a:hover {
+  border-bottom: 2px solid #000; /* Adjust color and thickness */
+  padding-bottom: 5px; /* Create distance from text */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrot-container {
+  width: 953px;
+  height: 600px;
+  border-radius: 50%;  /* Ensures perfect circle */
+  background: conic-gradient(from 121deg at 48.51% 59.27%, #047102 13.227541744709015deg, #2CB80E 95.03987073898315deg, #5BDD33 174.0336835384369deg, #4FCC1D 239.0398621559143deg, #52D607 360deg);
+  display: flex; /* Positions image and text within the circle */
+  justify-content: center;
+  align-items: left;
+}
+
+.parrot-image {
+  width: 401px;
+  height: 600px;
+  margin-bottom: 20rem;
+}
+
+.text-content {
+  text-align: left;
+  font-family: Inika;
+}
+
+h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+
+h2 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 1rem 0rem 1rem 0rem;    /*top right bottom left*/
+}
+
+.slogan {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  margin-bottom: 2rem;
+}
+
+button{
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  font-family: Arial;
+  line-height: normal;
+  background: #047102;
+  color: white;
+}
+
+button:hover{
+  background-color: #6ca42c;
+}
+
+.get-started-button {
+  padding: 1rem 2rem;
+  transition: ease-in-out 0.2s;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sign-up-button {
+  width: 101px;
+  height: 41px;
+  font-size: 15px;
+}
+
+
+
+
