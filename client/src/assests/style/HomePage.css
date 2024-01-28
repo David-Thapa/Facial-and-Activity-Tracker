@@ -127,6 +127,7 @@ button{
   line-height: normal;
   background: #047102;
   color: white;
+  border: none;
 }
 
 button:hover{

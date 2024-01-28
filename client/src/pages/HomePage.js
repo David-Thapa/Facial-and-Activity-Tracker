@@ -5,7 +5,7 @@ import "../assests/style/HomePage.css"
 import { Link } from 'react-router-dom';
 import { useNavigate} from 'react-router-dom';
 
-function AvianVision() {
+const HomePage = () => {
   const navigate = useNavigate();
   return (
     <div className="avian-vision">
@@ -40,5 +40,5 @@ function AvianVision() {
   );
 }
 
-export default AvianVision;
+export default HomePage;
 

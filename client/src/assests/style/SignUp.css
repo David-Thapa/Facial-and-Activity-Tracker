@@ -1,0 +1,100 @@
+.avian-vision1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Inika;
+    background: conic-gradient(from 179deg at 50% 50%, #6FDA2F 0deg, #7CE83C 49.59153950214386deg, #A3FF6D 126.71135187149048deg, #77E536 219.6000051498413deg);;
+}
+
+.logo{
+    height: 70px;
+    width: 75px;
+    margin-left: 8rem;
+}
+
+.title{
+    font-family: Inika;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center the left content */
+  }
+  
+.signup-form {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+  }
+
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+.form-group input {
+    width: 150%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+.signup-button {
+    display: block;
+    width: 159%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: ease-in-out 0.2s;
+    font-family: Arial;
+    background: #047102;
+    color: white;
+  }
+  
+.signin-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+.signin-link a {
+    color: var(--Dark-Green, #047102);;
+    text-decoration: none;
+  }
+  
+  
+.image-container {
+    flex: 1; /* Adjust as needed to control image size */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+.duck-image {
+    width: 60%; /* Adjust as needed */
+    height: 100vh;
+  }
