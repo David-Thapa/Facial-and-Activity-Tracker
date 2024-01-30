@@ -1,0 +1,31 @@
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .browse-label {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .preview-container {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .upload-icon {
+    margin-right: 5px;
+  }
+  
+  /* ... (other styles) */
+  

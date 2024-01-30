@@ -28,7 +28,7 @@
     justify-content: center; /* Center the left content */
   }
   
-.signup-form {
+.signin-form {
     background-color: transparent;
     padding: 20px;
     display: flex;
@@ -59,7 +59,7 @@
     font-size: 16px;
   }
   
-.signup-button {
+.signin-button {
     display: block;
     width: 159%;
     padding: 15px;
@@ -75,13 +75,13 @@
     color: white;
   }
   
-.signin-link {
+.signup-link {
     margin-top: 10px;
     font-size: 14px;
     color: #666;
   }
   
-.signin-link a {
+.signup-link a {
     color: var(--Dark-Green, #047102);;
     text-decoration: none;
   }
@@ -94,7 +94,7 @@
     align-items: center;
   }
   
-.duckup-image {
+.duckin-image {
     width: 60%; /* Adjust as needed */
     height: 100vh;
   }

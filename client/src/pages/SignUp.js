@@ -12,8 +12,7 @@ const SignUp = () => {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
-    password: '',
-    confirmPassword: ''
+    password: ''
   })
 
   const [errors, setErrors] = useState({})
@@ -117,7 +116,7 @@ const SignUp = () => {
           </div>
 
           <div className="image-container">
-            <img src={Duck} alt="Duck image" className="duck-image" />
+            <img src={Duck} alt="Duck image" className="duckup-image" />
           </div>
 
         </div>
