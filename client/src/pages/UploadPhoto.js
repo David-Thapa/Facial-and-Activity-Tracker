@@ -39,16 +39,18 @@ const UploadPhoto = () => {
     <div className="avian-vision">
       <div className="header">
         <nav className="navigation">
+          <Link to='/'>
             <img src={Logo1} alt="Logo is AvianVision" className="Logo-avian" />
-                <ul className='middle'>
-                    <li><Link to="AboutPage">About</Link></li>
-                    <li><Link to="UploadPhoto">Upload Photo</Link></li>
-                    <li><Link to="#">Leave a Message</Link></li>
-                </ul>
-                <ul className='last'>
-                    <li><a href="SignIn">Sign in</a></li>
-                    <li><button className="sign-up-button" onClick={() => navigate("/SignUp")}>Sign up</button></li>
-                </ul>
+          </Link>                
+          <ul className='middle'>
+            <li><Link to="AboutPage">About</Link></li>
+            <li><Link to="UploadPhoto">Upload Photo</Link></li>
+            <li><Link to="#">Leave a Message</Link></li>
+          </ul>
+          <ul className='last'>
+            <li><a href="SignIn">Sign in</a></li>
+            <li><button className="sign-up-button" onClick={() => navigate("/SignUp")}>Sign up</button></li>
+          </ul>
         </nav>
       </div>
       <div className="main-content">
