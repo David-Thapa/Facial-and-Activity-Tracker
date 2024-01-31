@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-left {
+    flex: 1;
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-right img {
+    width: 300px; 
+    height: 150px;
+
+  }
+
+
+
+  .card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 250px;
+    display: inline-block;
+    margin-top: 4rem;
+  }
+
+  .circle{
+    width: 35%;
+  height: 30%;
+  border-radius: 50%;
+    background-color:  #047102;
+    display: flex; /* Positions image and text within the circle */
+  justify-content: center;
+  align-items: center;
+  }
+
+  .card .snap-img{
+    max-width: 80%;
+    height: 80%;
+  }
+
+  .card-title{
+    font-family: Inika;
+    font-size: 25px;
+  }
+  
+  /* You may need to adjust other styles according to your design */
+  
