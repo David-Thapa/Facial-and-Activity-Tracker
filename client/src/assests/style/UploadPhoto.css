@@ -1,9 +1,13 @@
+.drop-area-container{
+  margin-bottom: 20rem;
+}
 .drop-area {
-    border: 2px dashed #ccc;
-    padding: 20px;
+    border: 2px dashed black;
+    padding: 3rem 8rem; /*top, right, bottom, and left*/
     text-align: center;
     cursor: pointer;
     position: relative;
+    background-color: white; 
   }
   
   .browse-label {
@@ -18,7 +22,7 @@
   
   .preview-image {
     max-width: 100%;
-    max-height: 200px;
+    max-height: 150px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
@@ -27,5 +31,56 @@
     margin-right: 5px;
   }
   
-  /* ... (other styles) */
+  .upload-button{
+    width: 40rem;
+  height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  font-family: Arial;
+  line-height: normal;
+  background: #047102;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  }
   
+  .log-out-button{
+    width: 101px;
+  height: 41px;
+  font-size: 15px;
+  }
+
+  b{
+    position: relative;
+    text-align: center;
+  }
+
+.main{
+    background-color: linear-gradient(92deg, rgba(110, 193, 72, 0.78) -6.48%, rgba(138, 222, 99, 0.74) 66.55%, #76FF38 132.09%);
+
+    backdrop-filter: blur(10px);
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.popup{
+    height: 300px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    border-radius: 10px;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    position: relative;
+    text-align: center;
+   
+}

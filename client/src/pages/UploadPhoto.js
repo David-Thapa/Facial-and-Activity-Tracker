@@ -35,6 +35,14 @@ const UploadPhoto = () => {
     console.log('File uploaded:', selectedFile);
   };
 
+  const [popup,setPop]=useState(false)
+    const handleClickOpen=()=>{
+        setPop(!popup)
+    }
+    const closePopup=()=>{
+        setPop(false)
+    }
+
   return (
     <div className="avian-vision">
       <div className="header">
@@ -48,12 +56,14 @@ const UploadPhoto = () => {
             <li><Link to="#">Leave a Message</Link></li>
           </ul>
           <ul className='last'>
-            <li><a href="SignIn">Sign in</a></li>
-            <li><button className="sign-up-button" onClick={() => navigate("/SignUp")}>Sign up</button></li>
+            <li><button className="log-out-button" onClick={() => navigate("/")}>Log out</button></li>
           </ul>
         </nav>
       </div>
       <div className="main-content">
+      <div className="drop-area-container">
+        <p><b>Hi! Have you spotted and clicked a bird that you couldn’t identify?</b></p>
+<p><b>No Problem! Just upload the Photo of the bird and find out which species it is!</b></p>
       <div
         className="drop-area"
         onDrop={handleDrop}
@@ -78,13 +88,30 @@ const UploadPhoto = () => {
             />
             <p>Selected File: {selectedFile.name}</p>
           </div>
+        
         ) : (
           <p>No file selected</p>
         )}
-      </div>
-      <button onClick={handleUploadClick} disabled={!selectedFile}>
+        </div>
+        
+        <div>
+      <button className='upload-button' onClick={handleClickOpen}>
         Upload Photo
       </button>
+      <div>
+                {
+                    popup?
+                    <div className="main">
+                        <div className="popup">
+                            <div className="popup-header">
+                                <h1>Photo Uploaded Successfully!</h1>
+                            </div>
+                      </div>
+                    </div>:""
+                }
+            </div>
+      </div>
+      </div> 
     </div>
     </div>
   );
