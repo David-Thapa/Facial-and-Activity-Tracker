@@ -46,7 +46,8 @@ const SignUp = () => {
     setErrors(validationErrors)
 
     if(Object.keys(validationErrors).length === 0) {
-        alert("Form Submitted successfully")
+        alert("Form Submitted successfully");
+        navigate("/SignIn");
     }
 
   }
@@ -56,7 +57,7 @@ const SignUp = () => {
       <main className="main">
         <div className="flex-container">
           <div className="signup-form">
-            <img src={Logo1} alt="Avian Vision logo" className="logo" />
+            <img src={Logo1}  className="logo" />
             <h3 className="title">Create your account</h3>
 
             <form onSubmit={handleSubmit}>
